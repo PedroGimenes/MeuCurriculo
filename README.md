@@ -1,2 +1,2 @@
 # MeuCurriculo
-Meu Currículo
+https://pedrogimenes.github.io/MeuCurriculo/
