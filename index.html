@@ -12,6 +12,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
+    <style>
+     footer{
+
+        display: flex;
+        flex-direction: column; 
+        padding: 20px;
+        max-width: 1200px; 
+        margin: 0 auto;
+        font-size: 16px;
+        flex: 1;
+     }
+     .conta{
+      margin-right: 800px;
+      margin-bottom: 25px;
+     }
+
+     h5{
+      top: 110000px;
+     }
+
+
+
+    </style>
+
 
 </head>
 <body>
@@ -37,7 +61,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Sobre Mim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projeto">Meus Projetos</a>
+                <a class="nav-link" href="#projeto">Formação</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#competencia">Competencias</a>
@@ -88,13 +112,18 @@
     <section class="secpro">
 
        <div class="row" >
-         <h2 id="projeto">Meus Projetos</h2>
+         <h2 id="projeto">Formação</h2>
        </div>
        <div class="row">
          <!--Aqui vai 4 colunas que vão conter um card cada uma delas-->
          <div class="col" >
           <img src="img/img02.jpg" alt="">
-          <p>Atualmente estou em um projeto que chamado LUMINE, o projeto consiste em um site para ajudar a estudar de forma mais efeciente, idependente da idade, utilizando IA para auxiliar nos estudos e otimizar o aprendizado . </p>
+          <ul>
+            <li>Projeto - Projetos voltado para área de tecnologia </li>
+            <li>inglês (cursando) na Wizard</li>
+            <li>Técnico em Informática (cursando) na ETEC</li>
+            <li>Ensino fundamental completo</li>
+          </ul>
          </div>
        </div> 
     </section>
@@ -109,7 +138,7 @@
       <div class="row">
         <div class="col">
           <!--Aqui vou falar as minhas competencias-->
-          <p>Atualmente estou cursando TI na Etec MCM, e estou aprendendo sobre Html, Css e começando a entrar em JavaScript. Agregando em minha formação profissional.  </p>
+          <p>Atualmente estou cursando TI na Etec MCM, e estou aprendendo sobre Html, Css, JavaScript e lógica de programação com Python. tenho experiencia com BPMN, Kanban e Scrum. </p>
           <img src="img/img03.jpg" alt="">
           
         </div>
@@ -127,6 +156,7 @@
         <div class="col">
           <!--Aqui vai as minhas Experiencias-->
           <p>Embora não tenha Experiencia profissional, estou disposto a aprender e aplicar meu conhecimento durante minha formação. </p>
+          <p>Em 2024 desenvolvi um site básico, utilizando Html e Css. <a href="https://pedrogimenes.github.io/MeuPrimeiroSite/">Primeiro site</a></p> 
           <img src="img/img01.jpg" alt="">
         </div>
       </div>
@@ -179,16 +209,31 @@
     <hr>
 
     <footer>
-      <!--Aqui vai o rodapé-->
+      <div class="container text-center">
+        <!-- fale comigo -->
+        <div >
+            <h5 class="conta">Contato</h5>
+            <p>Email: phgimenes.andrade@gmail.com</p>
+            <p>Telefone: (11) 91202-1649</p>
+        </div>
+        <!-- links -->
+        <div >
 
-      <a href="https://github.com/PedroGimenes/MeuCurriculo" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: none;">
-
+            <h5>Redes Sociais</h5>
+            <a class="git" href="https://github.com/PedroGimenes/MeuCurriculo" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: none;">
+              
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
         </svg> Meu GitHub
+       <i class="fab fa-github" style="font-size: 20px;"></i>
+            </a>
+        </div>
+        <div>
+            <h5 style="text-align: right;">Criado por &copy; Pedro Gimenes <em id="date">2024</em></h5>
+        </div>
+    </div>
 
       </a>
-      <p>Criado por &copy; Pedro Gimenes <em id="date">2024</em></p>
 
     </footer>
   </div> 
